@@ -1,0 +1,58 @@
+site_name: Task Bar Hero Helper
+site_description: >-
+  Free, read-only desktop companion for TBH: Task Bar Hero — stash value, live
+  Steam Market prices & buy orders, and a full optimization coach. Auto-updating,
+  no login, 100% on your PC.
+site_url: https://tanpaulus.github.io/task-bar-hero-helper-releases/
+repo_url: https://github.com/tanpaulus/task-bar-hero-helper-releases
+repo_name: Download / Releases
+copyright: Made by Tan Paulus · MIT · Independent project, not affiliated with Valve or the TBH developers.
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/bag-personal
+    repo: material/download
+  palette:
+    - scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Market & selling: market.md
+  - Optimization coach: coach.md
+  - Progression planners: progression.md
+  - Activity & history: activity.md
+  - Reference: reference.md
+  - In-game overlays: overlays.md
+  - Install & safety: install.md
