@@ -49,6 +49,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - What's new: changelog.md
   - Market & selling: market.md
   - Optimization coach: coach.md
   - Progression planners: progression.md

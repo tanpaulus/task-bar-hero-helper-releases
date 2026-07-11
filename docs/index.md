@@ -4,6 +4,7 @@
 
 [⬇ Download the latest version](https://github.com/tanpaulus/task-bar-hero-helper-releases/releases/latest){ .md-button .md-button--primary }
 [▶ Install in 2 minutes](install.md){ .md-button }
+[🆕 What's new](changelog.md){ .md-button }
 
 !!! success "100% read-only & local"
     It only **reads** a copy of your save (like opening a file in Notepad) and uses the same **public** price data the Steam website shows. It never modifies your save, never touches the game while it runs, never automates buying or selling, and never sends your data anywhere. The optional in-game overlays read memory **read-only** and are **off by default**. → [Full safety details](install.md#is-it-safe)
